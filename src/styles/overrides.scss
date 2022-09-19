@@ -1,0 +1,59 @@
+.ant-picker-header-next-btn,
+.ant-picker-header-super-next-btn {
+  visibility: visible !important;
+}
+
+.ant-picker-panel:last-child {
+  display: none;
+}
+
+.ant-picker-panel:first-child {
+  display: block;
+}
+
+@media only screen and (min-width: 1200px) {
+  .ant-picker-panel-container {
+    width: 100%;
+  }
+}
+
+.ant-select,
+.ant-picker,
+.ant-input-number {
+  width: 100%;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector,
+.ant-input,
+.ant-picker,
+.ant-input-number,
+.ant-input-password {
+  border-radius: 0.4rem;
+}
+
+.ant-form-item-label {
+  font-weight: 500;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  font-weight: 600;
+}
+
+.ant-modal-content {
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.ant-modal-title {
+  padding: 0.6rem;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.ant-modal-body {
+  padding: 1.8rem 2.4rem 0.9rem 2.4rem;
+}
+
+.ant-modal-footer {
+  padding: 1.5rem;
+}

@@ -1,0 +1,29 @@
+.headings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #eee;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+  padding: 2rem 1.5rem;
+  background-color: #f8f8f8;
+
+  h3 {
+    font-size: 1.45rem;
+    font-weight: 400;
+
+    @media only screen and (min-width: 576px) {
+      font-size: 1.65rem;
+    }
+  }
+}
+
+.noExpenses {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  border: 2px solid #eee;
+  border-top: none;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+}

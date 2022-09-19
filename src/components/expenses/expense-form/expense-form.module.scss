@@ -1,0 +1,20 @@
+.box {
+  margin-top: 2rem;
+
+  @media only screen and (min-width: 576px) {
+    padding: 2rem;
+    background-color: #fff;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(34, 36, 38, 0.15);
+  }
+}
+
+.btnGroup {
+  display: flex;
+
+  div {
+    display: flex;
+    margin-right: auto;
+  }
+}
